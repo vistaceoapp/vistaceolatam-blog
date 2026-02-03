@@ -1,0 +1,7 @@
+git clone https://github.com/vistaceoapp/vistaceo.git
+cd vistaceo
+cp -r astro-blog ../vistaceo-blog
+cd ../vistaceo-blog
+git init && git add . && git commit -m "Initial commit"
+git remote add origin https://github.com/vistaceoapp/vistaceo-blog.git
+git push -u origin main
